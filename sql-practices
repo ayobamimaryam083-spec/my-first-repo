@@ -1,0 +1,13 @@
+--SQL beginner series: Day 1
+
+--View all databases 
+SHOW DATBASES;
+
+--create databases
+CREATE DATABASE practice_db;
+
+--use the database
+USE practice_db;
+
+--Create a table 
+CREATE TABLE students (id INT, name VARCHAN(50),age INT);
